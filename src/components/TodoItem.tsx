@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ITodoDomainModel, StatusEnum } from '../domain/todoDomain';
+import { ITodoDomainModel, StatusEnum } from '../domain/TodoDomain';
 
 interface ITodoProps {
   todo: ITodoDomainModel;

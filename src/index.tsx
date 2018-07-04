@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import DevTools from "mobx-react-devtools";
 
 import TodoListModel from "./models/todo/TodoListModel";
-import TodoList from './page/list';
+import TodoList from './page/List';
 
 const todoListStore = new TodoListModel();
 render(

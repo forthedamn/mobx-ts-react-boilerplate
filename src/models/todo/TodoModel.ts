@@ -1,5 +1,5 @@
 import { observable } from "mobx";
-import TodoDomain, { StatusEnum, ITodoDomainModel} from '../../domain/todoDomain';
+import TodoDomain, { StatusEnum, ITodoDomainModel} from '../../domain/TodoDomain';
 
 /**
  * Model control the view state

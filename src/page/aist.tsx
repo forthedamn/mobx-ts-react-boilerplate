@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Component } from "react";
-import { observable, action } from "mobx";
-import { observer, inject } from "mobx-react";
+import { action } from "mobx";
+import { observer } from "mobx-react";
 import Store from '../models/todo/TodoListModel';
 import TodoModel from '../models/todo/TodoModel';
 import Todo from '../components/TodoItem';
@@ -10,7 +10,6 @@ interface IProps {
   store: Store;
 }
 
-@inject('store')
 @observer
 class TodoList extends Component<IProps> {
 

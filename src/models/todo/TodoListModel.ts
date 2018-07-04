@@ -1,5 +1,5 @@
 import { observable, computed, action } from "mobx";
-import TodoDomain, { StatusEnum } from '../../domain/todoDomain';
+import TodoDomain, { StatusEnum } from '../../domain/TodoDomain';
 import TodoModel from './TodoModel';
 
 /**
