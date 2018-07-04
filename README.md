@@ -9,3 +9,5 @@ A boilerplate that combines [MobX](https://mobxjs.github.io/mobx), [React](https
 npm install
 npm start
 ```
+
+![img](https://user-images.githubusercontent.com/8744583/42273954-81c5ad84-7fbd-11e8-9f0e-2c810fe63d62.png)
